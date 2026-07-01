@@ -1,0 +1,35 @@
+# ---------------- Python ---------------- #
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+.env
+
+data/raw/
+data/processed/ai_papers.csv
+data/processed/papers.pkl
+
+models/paper_embeddings.npy
+models/paper_index.faiss
+
+# ---------------- IDE ---------------- #
+.vscode/
+.idea/
+*.code-workspace
+
+# ---------------- OS ---------------- #
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------- Streamlit ---------------- #
+.streamlit/secrets.toml
+
+# ---------------- Notebooks ---------------- #
+notebooks/.ipynb_checkpoints/
+*.ipynb_checkpoints
